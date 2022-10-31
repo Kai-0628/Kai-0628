@@ -17,8 +17,8 @@ msg_tip = """10分鐘內沒有相關訊息
 1分鐘後可以再查詢試試
 """
 
-line_bot_api = LineBotApi( '1g1Z56BGdY1RKAtQjxjLi9w65pBMtrBh3Rn2YJuZBNvCu6bpj3ECeIJqx+MoCChKi135DP0x5HRK3EZcvlYdJWj3aXK8vMLl9IgWB4bn2cz3hzbpRnJ0jUoZM/UeL4KXkF7IyObIWhpSy8RtVkJ1sgdB04t89/1O/w1cDnyilFU=')
-handler = WebhookHandler('709ce11febe5e5763bfc72d2a359cdf0')
+line_bot_api = LineBotApi("您的Line Bot Channel Access Token")
+handler = WebhookHandler("您的Line Bot Channel Secret")
 
 
 @app.route("/callback", methods=['POST'])
